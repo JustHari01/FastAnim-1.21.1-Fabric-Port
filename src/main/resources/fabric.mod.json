@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "faster_entity_animations",
+  "version": "${version}",
+  "name": "FastAnim (Unofficial 1.21.1 Port)",
+  "description": "Unofficial Fabric 1.21.1 compatibility port of FastAnim. Optimizes calculations in entity animations.",
+  "authors": ["Lunade", "JustHari01"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/fastanim"
+  },
+  "license": "MIT",
+  "icon": "assets/lunade/fastanim_icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.lunade.fastanim.Main"]
+  },
+  "mixins": ["fastanim.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric-api": ">=0.116.17",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
